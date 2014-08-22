@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Steps to install the app
 
 node.js need to be installed (http://nodejs.org/download/)
@@ -21,3 +22,7 @@ $ grunt
 Copy and paste the line of code below to create as many as clocks. Only need to change the id of the below mentined element. The ID would be unique.
 
 <div id="clock1" class="clock-container" background-color="red" border-color="yellow" seconds-tick-enabled="true" offset="0" clock=""></div>
+=======
+clock-angularjs-d3-jasmine
+==========================
+>>>>>>> b56f34ebf301501214ac0298e7e26e4040a0636e
