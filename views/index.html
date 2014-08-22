@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf=8">
+    <title>Clock Demo</title>
+    <link href="stylesheets/base.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- content -->
+    <header>
+      <h1>Scaffold</h1>
+      <span>Clock Demo</span>
+    </header>
+    
+    <!-- ng-view -->
+    <div ng-view class="msg"></div>
+
+    <div id="clock1" class="clock-container" background-color="red" border-color="yellow" seconds-tick-enabled="true" offset="0" clock=""></div>
+
+    <div id="clock2" class="clock-container" background-color="yellow" border-color="red" seconds-tick-enabled="true" offset="1" clock=""></div>
+
+  </body>
+  <script src="libs/requirejs/require.js" data-main="/js/main"></script>
+</html>

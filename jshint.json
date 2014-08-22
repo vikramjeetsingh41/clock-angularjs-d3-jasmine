@@ -1,0 +1,43 @@
+{
+    "options": {
+        "curly": true,
+        "eqeqeq": true,
+        "immed": true,
+        "latedef": true,
+        "newcap": true,
+        "noarg": true,
+        "sub": true,
+        "undef": true,
+        "boss": true,
+        "eqnull": true,
+        "es5": false,
+        "strict": true,
+        "globals": {
+            "define": true,
+            "describe": true,
+            "it": true,
+            "beforeEach": true,
+            "angular": true,
+            "alert": true,
+            "__dirname": true,
+            "require": true
+        }
+    },
+    "backend": {
+        "files": {
+            "src": "<%= lint.backend %>"
+        },
+        "options": {
+            "strict": false,
+            "node": true
+        }
+    },
+    "frontend": {
+        "files": {
+            "src": "<%= lint.frontend %>"
+        },
+        "options": {
+            "browser": true
+        }
+    }
+}

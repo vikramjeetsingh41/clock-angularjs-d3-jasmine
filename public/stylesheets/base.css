@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #F4FAED;
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+body header {
+  background-color: #E0EFC7;
+  border-bottom: 3px solid #F7BD3D;
+  width: 100%;
+  float: left;
+}
+body header h1 {
+  padding: 10px;
+  float: left;
+  width: 150px;
+  overflow: hidden;
+}
+body header span {
+  font-size: 12px;
+  float: left;
+  padding: 28px 0 10px 0;
+}
+body .msg {
+  padding: 10px 0 50px 10px;
+  float: left;
+  width: 99%;
+}
+body .clock-container {
+  width: 50%;
+  float: left;
+}
+body .clock-container svg {
+  stroke: #000;
+}
+body .clock-container svg.inner-container {
+  margin: 0 auto 80px auto;
+  display: block;
+  border: 1px solid #CCC;
+}
+body .clock-container svg.inner-container #rim {
+  fill: none;
+  stroke: #999;
+  stroke-width: 3px;
+}
+body .clock-container svg.inner-container .second-hand {
+  stroke-width: 3;
+}
+body .clock-container svg.inner-container .minute-hand {
+  stroke-width: 8;
+  stroke-linecap: round;
+}
+body .clock-container svg.inner-container .hour-hand {
+  stroke-width: 12;
+  stroke-linecap: round;
+}
+body .clock-container svg.inner-container .hands-cover {
+  stroke-width: 1;
+  fill: #000;
+}
+body .clock-container svg.inner-container .second-tick {
+  stroke-width: 3;
+  fill: #000;
+}
+body .clock-container svg.inner-container .hour-tick {
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+body .clock-container svg.inner-container .second-label {
+  font-size: 12px;
+}
+body .clock-container svg.inner-container .hour-label {
+  font-size: 34px;
+}
+@media (max-width: 900px) {
+  body .clock-container {
+    width: 100%;
+  }
+}

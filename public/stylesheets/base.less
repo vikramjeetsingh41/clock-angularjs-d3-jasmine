@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #F4FAED;
+	margin: 0;
+	padding: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	header {
+		background-color: #E0EFC7;
+		border-bottom: 3px solid #F7BD3D;
+		width: 100%;
+		float: left;
+		h1 {
+			padding: 10px;
+			float: left;
+			width: 150px;
+			overflow: hidden;
+		}
+		span {
+			font-size: 12px;
+			float: left;
+			padding: 28px 0 10px 0;
+		}
+	}
+	.msg {
+		padding: 10px 0 50px 10px;	
+		float: left;
+		width: 99%;
+	}
+	.clock-container {
+		width: 50%;
+		float: left;
+		svg{
+			stroke: #000;			
+			&.inner-container {
+				margin: 0 auto 80px auto;
+				display: block;
+				border: 1px solid #CCC;		
+				#rim {
+				  fill: none;
+				  stroke: #999;
+				  stroke-width: 3px;
+				}
+				.second-hand{
+					stroke-width:3;
+				}
+				.minute-hand{
+					stroke-width:8;
+					stroke-linecap:round;
+				}
+				.hour-hand{
+					stroke-width:12;
+					stroke-linecap:round;
+				}
+				.hands-cover{
+					stroke-width:1;
+					fill:#000;
+				}
+				.second-tick{
+					stroke-width:3;
+					fill:#000;	
+				}
+				.hour-tick{
+					stroke-width:4;
+					stroke-linecap:round;
+				}
+				.second-label{
+					font-size: 12px;
+				}
+				.hour-label{
+					font-size: 34px;
+				}
+				}
+			}
+		}
+}
+
+@media (max-width: 900px) { 
+	body {
+		.clock-container {
+			width: 100%;
+		}
+	}	
+}
