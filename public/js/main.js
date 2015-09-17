@@ -3,7 +3,7 @@ require.config({
   paths: {
     'angular': '../libs/angular/angular.min',
     'angular-route': '../libs/angular-route/angular-route.min',
-    'd3': '../libs/d3/d3.v3.min'
+    'd3': '../libs/d3/d3.min'
   },
   shim: {
     'angular': {
